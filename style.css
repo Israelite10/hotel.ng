@@ -1,788 +1,862 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.all-container{
-    padding: auto ;
-    margin: auto;
-    align-items: center;
+.all-container {
+  padding: auto;
+  margin: auto;
+  align-items: center;
 }
 
-
-
-
-body{
-    padding:0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
-    
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
-.hotel h3{
-    font-family: serif;
-    line-height: 2;
-    font-size: 25px;
-    color: white;
-
+.hotel h3 {
+  font-family: serif;
+  line-height: 2;
+  font-size: 25px;
+  color: white;
 }
 
-
-nav, .dropdown{
-    background-color: rgb(16, 195, 255);
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-
+nav,
+.dropdown {
+  background-color: rgb(16, 195, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 0;
 }
-.dropdown1 ul{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    
+.dropdown1 ul {
+  display: flex;
+  align-content: flex-end;
+  list-style: none;
+  text-decoration: none;
 }
-.dropdown1 ul li{
-    width: 80px;
-    margin: 5px;
-      
+.dropdown1 ul li {
+  /* width: 80px; */
+  margin: 5px;
+  margin-top: 15px;
 }
-.dropdown1 a{
-    text-decoration: none;
-    padding: 10px;
-    justify-content:space-evenly;
-}
-
-.block img{
-    display: block;
-    margin-left: 10px;
+.dropdown1 a {
+  text-decoration: none;
+  padding: 10px;
+  justify-content: space-around;
 }
 
-.link{
-    display: flex;
-    margin: 5px;
+/* .block img {
+  display: block;
+  margin-left: 10px;
+} */
+
+/* .link {
+  display: flex;
+  margin: 5px;
 }
-.link a, .block a{
-    color: white;
-    
-}
-.dropdown1 ul li:hover{
-    background-color: rgb(13, 151, 151);
-}
+.link a,
+.block a {
+  color: white;
+} */
+/* .dropdown1 ul li:hover {
+  background-color: rgb(13, 151, 151);
+} */
 
-
-
-.dropdown2{
-    display: none;
-
-}
-
-
-.cover{
-    background-image: url(hotel.jpg);
-    background-position: center;
-    background-size: cover;
-   padding: 100 100;
-    
-}
-.cover,h2,h4{
-    color: white;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.2;
-    
-    
+.dropdown2 {
+  display: none;
 }
 
-
-.search-box{
-    margin-right: 5px;
+.cover {
+  background-image: url(hotel.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 100 100;
+}
+.cover,
+h2,
+h4 {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 
-.search-box input{
-padding: 5px;
-width: 350px;
-height: 40px;
-border-radius: 5px ;
+.search-box {
+  margin-right: 5px;
 }
 
-.calender{
-    margin-right: 5px;
-    
-    
-}
-.calender input{
-    width: 200px;
-    padding: 10px;
-    border-radius: 5px ;
+.search-box input {
+  padding: 5px;
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
 }
 
-
-.search{
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    border: 5px;
-  
-    
+.calender {
+  margin-right: 5px;
+}
+.calender input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  height: 40px;
 }
 
-
-
-
-.search-1 button{
-    width: 100px;
-    padding: 8px;
-    height: 40px;
-    background-color: deepskyblue;
-    border-color: deepskyblue;
-    border-radius: 5px;
-
-}
-.search-1 a{
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-}
-.text h2{
-    color: black;
-    text-transform: capitalize;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-.text p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5px;
-    
-}
-.line{
-    text-align: center;
-    padding: 10px;
-
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  border: 5px;
 }
 
+.search-1 button {
+  width: 100px;
+  margin-top: 1px;
+  height: 40px;
 
-
-.flex h4{
-    color: deepskyblue;
-    text-align: center;
-    
-
+  background-color: deepskyblue;
+  border-color: deepskyblue;
+  border-radius: 5px;
 }
-.flex p{
-    padding-top: 10px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+.search-1 a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
 }
-
-
-.flex{
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    
-  
- 
-    
+.text h2 {
+  color: black;
+  text-transform: capitalize;
+  font-family: "Times New Roman", Times, serif;
 }
-#box1{
-    border: 3px solid;
-    border-color: deepskyblue;
-    padding: 20px;
-    width: 170px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 10px;
-    
+.text p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 5px;
 }
-#box2{
-    border: 3px solid;
-    border-color: deepskyblue;
-    padding: 20px;
-    width: 170px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 10px;
-}
-#box3{
-    border: 3px solid;
-    border-color: deepskyblue;
-    padding: 20px;
-    width: 170px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 10px;
+.line {
+  text-align: center;
+  padding: 10px;
 }
 
-
-
-
-#box4{
-    border: 3px solid;
-    border-color: deepskyblue;
-    padding: 20px;
-    width: 170px;
-    height: 100px;
-    margin: 10px;
-    border-radius: 10px;
+.flex h4 {
+  color: deepskyblue;
+  text-align: center;
 }
-#box5{
-    border: 3px solid;
-    border-color: deepskyblue;
-    margin: 10px;
-    padding: 20px;
-    width: 170px;
-    height: 100px;
-    border-radius: 10px;
+.flex p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
+.flex {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#box1 {
+  border: 3px solid;
+  border-color: deepskyblue;
+  padding: 20px;
+  width: 170px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#box2 {
+  border: 3px solid;
+  border-color: deepskyblue;
+  padding: 20px;
+  width: 170px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#box3 {
+  border: 3px solid;
+  border-color: deepskyblue;
+  padding: 20px;
+  width: 170px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
 
-#box6{
-    border: 3px solid;
-    border-color: deepskyblue;
-    margin: 10px;
-    padding: 20px;
-    width: 170px;
-    height: 100px;
-    border-radius: 10px;
+#box4 {
+  border: 3px solid;
+  border-color: deepskyblue;
+  padding: 20px;
+  width: 170px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+#box5 {
+  border: 3px solid;
+  border-color: deepskyblue;
+  margin: 10px;
+  padding: 20px;
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#box6 {
+  border: 3px solid;
+  border-color: deepskyblue;
+  margin: 10px;
+  padding: 20px;
+  width: 170px;
+  height: 100px;
+  border-radius: 10px;
 }
 a {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
-#box1:hover{
-    background-color: deepskyblue;
+#box1:hover {
+  background-color: deepskyblue;
 }
-#box2:hover{
-    background-color: deepskyblue;
+#box2:hover {
+  background-color: deepskyblue;
 }
-#box3:hover{
-    background-color: deepskyblue;
+#box3:hover {
+  background-color: deepskyblue;
 }
-#box4:hover{
-    background-color: deepskyblue;
+#box4:hover {
+  background-color: deepskyblue;
 }
-#box5:hover{
-    background-color: deepskyblue;
+#box5:hover {
+  background-color: deepskyblue;
 }
-#box6:hover{
-    background-color: deepskyblue;
+#box6:hover {
+  background-color: deepskyblue;
 }
-a:hover h4{
-    color: white;
+a:hover h4 {
+  color: white;
 }
-.pictures{
-    display: flex;
-   justify-content: center;
-   padding: 5px;
-   
-   
+.pictures {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 
-.pictures h4{
-    color: deepskyblue;
-    text-align: start;
-    
+.pictures h4 {
+  color: deepskyblue;
+  text-align: start;
 }
-p{
-    color: black;
-}
-
-
-
-
-#pic-inline{
-    border: 2px solid rgb(164, 160, 160);
-    margin-right: 20px;
-    border-radius: 5px;
-    
+p {
+  color: black;
 }
 
-#pic-inline1{
-    border: 2px solid rgb(172, 167, 167);
-    margin-right: 20px;
-    border-radius: 5px;
-
-}
-#pic-inline2{
-    border: 2px solid rgb(174, 169, 169);
-    margin-right: 20px;
-    border-radius: 5px;
-}
-#pic-inline h4{
-    padding: 10px;
+#pic-inline {
+  border: 2px solid rgb(164, 160, 160);
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-#pic-inline1 h4{
-   padding: 10px;
+#pic-inline1 {
+  border: 2px solid rgb(172, 167, 167);
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#pic-inline2 {
+  border: 2px solid rgb(174, 169, 169);
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+#pic-inline h4 {
+  padding: 10px;
 }
 
-#pic-inline2 h4{
-    padding: 10px;
-    padding-bottom: 40px;
-    
-
-}
-#pic-inline p{
-   padding-left: 10px;
-   padding-top: 5px;
-   font-family: 'Times New Roman', Times, serif;
-
-}
-#pic-inline1 p{
-    padding-left: 10px;
-    padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
-
-}
-#pic-inline2 p{
-    padding-left: 10px;
-    font-family: 'Times New Roman', Times, serif;
-
-
-}
-.pictures a:hover h4{
-    color: deepskyblue;
+#pic-inline1 h4 {
+  padding: 10px;
 }
 
-.pictures2{
-    display: flex;
-   justify-content: center;
-   padding: 5px;
-   
+#pic-inline2 h4 {
+  padding: 10px;
+  padding-bottom: 40px;
+}
+#pic-inline p {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+#pic-inline1 p {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+#pic-inline2 p {
+  padding-left: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+.pictures a:hover h4 {
+  color: deepskyblue;
 }
 
-.pictures2 h4{
-    color: deepskyblue;
-    text-align: start;
+.pictures2 {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin-bottom: 20px;
 }
 
-#pic-inline3{
-    border: 2px solid rgb(164, 160, 160);
-    margin-right: 20px;
-    border-radius: 5px;
-    
+.pictures2 h4 {
+  color: deepskyblue;
+  text-align: start;
 }
 
-#pic-inline4{
-    border: 2px solid rgb(164, 160, 160);
-    margin-right: 20px;
-    border-radius: 5px;
-
-
-    
+#pic-inline3 {
+  border: 2px solid rgb(164, 160, 160);
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-#pic-inline5{
-    border: 2px solid rgb(164, 160, 160);
-    margin-right: 20px;
-    border-radius: 5px;
-    
-}
-#pic-inline3 h4{
-    padding: 10px;
-}
-#pic-inline4 h4{
-    padding: 10px;
-    padding-bottom: 20px;
-}
-#pic-inline5 h4{
-    padding: 10px;
-}
-#pic-inline3 p{
-    padding-left: 10px;
-    padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
-}
-#pic-inline4 p{
-    padding-left: 10px;
-    padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
+#pic-inline4 {
+  border: 2px solid rgb(164, 160, 160);
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-#pic-inline5 p{
-    padding-left: 10px;
-    padding-top: 5px;
-    font-family: 'Times New Roman', Times, serif;
+#pic-inline5 {
+  border: 2px solid rgb(164, 160, 160);
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
-.pictures2 a:hover h4{
-    color: deepskyblue;
+#pic-inline3 h4 {
+  padding: 10px;
 }
-    
-#text2 h2{
-    
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
-    padding-top: 50px;
-    line-height: 1.8;
-    font-weight: bold;
+#pic-inline4 h4 {
+  padding: 10px;
+  padding-bottom: 20px;
 }
-#text2 p{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    padding-bottom: 10px;
-    
+#pic-inline5 h4 {
+  padding: 10px;
 }
-
-.flexbox{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-
+#pic-inline3 p {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+#pic-inline4 p {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
 }
 
-
-
-#flex1{
-    background-image: url(lagos.jpg);width: 330px; height: 250px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 5px;
-    padding: 50px;
-    
+#pic-inline5 p {
+  padding-left: 10px;
+  padding-top: 5px;
+  font-family: "Times New Roman", Times, serif;
 }
-#flex2{
-    background-image: url(abuja.jpg);width: 330px; height: 250;
-    background-position: center;
-    background-size: cover;
-    margin-left: 20px;
-    border-radius: 5px;
-    padding: 50px;
-    
-}
-#flex3{
-    background-image: url(crossrive.jpg);width: 330px;height: 250px;
-    background-position: center;
-    background-size: cover;
-    margin-left: 20px;
-    border-radius: 5px;
-    padding: 50px;
-    
-}
-#flex1 h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    text-shadow:1px 1px black;
-
-    
+.pictures2 a:hover h4 {
+  color: deepskyblue;
 }
 
-#flex2 h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    text-shadow:1px 1px black;
-    
-    
-    
+#text2 h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  padding-top: 50px;
+  line-height: 1.8;
+  font-weight: bold;
 }
-#flex3 h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    text-shadow:1px 1px black;
-         
+#text2 p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-bottom: 10px;
 }
 
-.flexbox1{
-    display: flex;
-    justify-content: center;
-    padding: 30px;
+.flexbox {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
 }
 
-#flex4{
-    background-image: url(owerri.jpg);width: 330px; height: 250px;
-    background-position: center;
-        background-size: cover;
-        border-radius: 5px;
-        padding: 50px;
-} 
-
-#flex5{
-    background-image: url(port-harcourt.jpg);width: 340px; height: 250px;
-    background-position: center;
-        background-size: cover;
-        padding: 50px;
-        margin-left: 20px;
-        border-radius: 5px;
+#flex1 {
+  background-image: url(lagos.jpg);
+  width: 330px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 30px;
+}
+#flex2 {
+  background-image: url(abuja.jpg);
+  width: 330px;
+  height: 250;
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 50px;
+}
+#flex3 {
+  background-image: url(crossrive.jpg);
+  width: 330px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 50px;
+}
+#flex1 h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
 }
 
-
-#flex6{
-    background-image: url(uyo.jpg);width: 340px; height: 250px;
-    background-position: center;
-        background-size: cover;
-        margin-left: 20px;
-        border-radius: 5px;
-        padding: 50px;
-        
-    
-}        
-
-#flex4 h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    text-shadow:2px 2px black;
+#flex2 h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
+}
+#flex3 h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px black;
 }
 
-#flex5 h3{
-font-family: 'Times New Roman', Times, serif;
-color: white;
-text-align: center; 
-text-shadow:2px 2px black;
+.flexbox1 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 
-#flex6 h3{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    text-shadow:2px 2px black;
- }
- .heading-text h2{
-    text-align: center;
-    font-weight: bold;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: capitalize;
- }
- .heading-text p{
-    text-align: center;
-    line-height: 1.5;
- }
+#flex4 {
+  background-image: url(owerri.jpg);
+  width: 330px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 50px;
+}
 
- .hotel-container{
-    display: flex;
+#flex5 {
+  background-image: url(port-harcourt.jpg);
+  width: 330px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  margin-left: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+#flex6 {
+  background-image: url(uyo.jpg);
+  width: 330px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  /* margin-left: 20px; */
+  border-radius: 5px;
+  padding: 50px;
+}
+
+#flex4 h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+#flex5 h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+#flex6 h3 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+.heading-text h2 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+.heading-text p {
+  text-align: center;
+  line-height: 1.5;
+}
+
+.hotel-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: center;
+}
+#hotel-list {
+  width: 200px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+#hotel-list h3 {
+  color: deepskyblue;
+}
+
+.hotel-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: flex-start;
+  margin-left: 85px;
+}
+
+#hotel-list-last {
+  width: 200px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+#hotel-list-last h3 {
+  color: deepskyblue;
+}
+
+.form {
+  background-color: rgb(236, 238, 238);
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+#sub-form {
+  text-align: center;
+  padding: 30px;
+  line-height: 2;
+}
+#sub-form h2 {
+  color: rgb(88, 87, 87);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#sub-form h3 {
+  color: rgb(111, 108, 108);
+}
+#email {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#email input {
+  padding: 5px;
+  width: 450px;
+  height: 40px;
+
+  border-radius: 5px;
+  border: 1px black solid;
+}
+#Subscribe button {
+  padding: 5px;
+  margin-left: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  border-color: deepskyblue;
+  color: white;
+}
+#more h2 {
+  text-align: center;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 80px;
+}
+
+.readmore {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#logo {
+  padding: 50px;
+  margin: -10px;
+}
+
+#logo1 {
+  padding: 50px;
+  padding-top: 90px;
+}
+
+.add-hotel button {
+  width: 200px;
+  height: 35px;
+  background-color: rgb(12, 125, 163);
+  border-radius: 5px;
+  border-color: rgb(5, 135, 179);
+  color: white;
+}
+.add-hotel {
+  padding-top: 30px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+a {
+  cursor: pointer;
+  color: white;
+}
+.flex-hotel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(242, 248, 248);
+  padding-left: 20px;
+}
+
+.img {
+  margin-top: 70px;
+  padding-right: 20px;
+}
+
+#h1-text {
+  padding: 10px;
+  padding-top: 120px;
+}
+#h1-text h1 {
+  color: deepskyblue;
+  font-size: 55;
+}
+#h1-text h2 {
+  color: rgb(114, 112, 112);
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+  max-width: 450px;
+}
+#h1-text p {
+  padding-right: 30px;
+}
+
+#google-play {
+  padding-top: 10px;
+}
+
+.email-section {
+  display: flex;
+  flex-wrap: flex;
+  background-color: rgb(35, 88, 167);
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+#enter-email {
+  margin: 10px;
+}
+
+#enter-email p {
+  color: deepskyblue;
+}
+
+#input input {
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: -9px;
+  border-color: rgb(35, 88, 167);
+}
+#input button {
+  width: 200px;
+  height: 40px;
+  border-top-right-radius: 5px;
+  color: white;
+  background-color: deepskyblue;
+  border-color: rgb(35, 88, 167);
+}
+
+table {
+  width: 900px;
+  justify-content: center;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-collapse: collapse;
+  line-height: 0.8;
+}
+
+tr th {
+  color: rgb(181, 178, 178);
+  padding-bottom: 10px;
+
+  box-shadow: 0 1px rgb(220, 219, 219);
+}
+
+td {
+  padding-top: 10px;
+  color: deepskyblue;
+}
+
+footer p {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: rgb(196, 194, 194);
+}
+
+/* styling on mobile devices**/
+@media (max-width: 600px) {
+  nav.dropdown1 {
+    flex-direction: column;
+  }
+  .flex {
+    flex-wrap: wrap;
     flex-direction: row;
+  }
+  .pictures,
+  .pictures2 {
+    flex-wrap: wrap;
+  }
+
+  .hotel-container,
+  .hotel-container1 {
+    display: block;
+    margin: 0 auto;
     justify-content: center;
+  }
 
- }
- #hotel-list{
-    width: 200px;
-    line-height: 1.5;
-    margin: 10px;
-    
- }
- #hotel-list h3{
-    color: deepskyblue;
- }
- 
- .hotel-container1{
+  .search {
+    flex-wrap: wrap;
+  }
+  .search-1 {
+    margin-top: 10px;
+  }
+  .calender {
+    margin-top: 10px;
+  }
+
+  .flexbox {
     display: flex;
-    flex-direction: row;
-    margin-left: 72px;
- }
+    flex-wrap: wrap;
+  }
+  #flex1 {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #flex2 {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #flex3 {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
 
-.form{
-    background-color: rgb(236, 238, 238);
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-#sub-form{
+  .flexbox1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #flex4 {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  #flex5 {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  #flex16 {
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 400px;
+    margin: 0;
+  }
+  .hotel-container {
+    display: flex;
+  }
+
+  #hotel-list {
+    flex: 1 1 calc(50% - 10%);
+  }
+
+  .hotel-container1 {
+    display: flex;
+  }
+
+  #hotel-list-last {
+    flex: 1 1 calc(50% - 10%);
+  }
+
+  #email {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #email button {
+    margin-top: 10px;
+  }
+  button:hover {
+    background: linear-gradient(to right, pink, rgb(14, 174, 166));
+    outline: none;
+    border: none;
+  }
+
+  .readmore img {
+    width: calc(50% - 10px);
+  }
+  #logo img {
+    width: 100px;
+    margin: 0;
+  }
+  #logo1 img {
+    width: 100px;
+    margin-top: -15px;
+  }
+  .flex-hotel {
+    display: block;
+  }
+  .img img {
+    width: 100%;
+  }
+  #h1-text {
     text-align: center;
-    padding: 30px;
-    line-height: 2.0;
+  }
 
-}
-#sub-form h2{
-    color: rgb(88, 87, 87);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-#sub-form h3{
-
-    color: rgb(111, 108, 108);
-}
- #email{
-    display: flex;
-    justify-content: center;
-    
-
- }
- #email input{
-    padding: 5px;
-    width: 450px;
-    height: 40px;
-    
-    border-radius: 5px;
-    border: 1px black solid;
- }
- #Subscribe button{
-    padding: 5px;
-    margin-left: 10px;
-    width: 150px;
-    height: 40px;
-    background-color: deepskyblue;
-    border-radius: 5px;
-    border-color: deepskyblue;
-     color: white;
- }
-#more h2{
+  .email-section {
+    flex-wrap: wrap;
     text-align: center;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 80px;
-}
-
-.readmore{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    
-
-}
-#logo{
-    padding: 50px;
-}
-
-#logo1{
-    padding: 50px;
-    padding-top: 90px;
-}
-
-.add-hotel button{
-    
-    width: 200px;
-    height: 35px;
-    background-color: rgb(12, 125, 163);
-    border-radius: 5px;
-    border-color: rgb(5, 135, 179);
-     color: white;
-     
-
-}
-.add-hotel{
-    padding-top: 30px;
-    padding-bottom: 70px;
+  }
+  #input button {
+    margin-top: 10px;
+  }
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: none;
+  }
+  footer p {
     text-align: center;
-
+    padding: 0;
+  }
 }
-a{
-    cursor: pointer;
-    color: white;
-    
-}
-.flex-hotel{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: rgb(242, 248, 248);
-    padding-left: 20px;
-}
-
-.img{
-    margin-top: 70px;
-    padding-right: 20px;
-}
-
-
-
-#h1-text{
-    padding: 10px;
-    padding-top: 120px;
-}
-#h1-text h1{
-    color: deepskyblue;
-    font-size: 55;
-}
-#h1-text h2{
-    color: rgb(114, 112, 112);
-    text-align: justify;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 10px;
-    max-width: 450px;
-    
-}
-#h1-text p{
- padding-right: 30px;
- 
-}
-
-
-
-#google-play{
-    padding-top: 10px;
-}
-
-.email-section{
-
-    display: flex;
-    background-color: rgb(35, 88, 167);
-    padding: 20px;
-    justify-content: space-evenly;
-    
-}
-
-#enter-email{
-margin: 10px; 
-
-
-
-}
-
-#enter-email p{
-    color: deepskyblue;
-}
-
-
-#input input{
-    width: 300px;
-    height: 40px;
-    padding: 5px;
-    border-radius: 5px;
-    margin-right: -9px;
-    border-color: rgb(35, 88, 167) ;
-    
-    
-    
-}
-#input  button{
-    width: 200px;
-    height: 40px;
-    border-top-right-radius: 5px;
-    color: white;
-    background-color: deepskyblue;
-    border-color: rgb(35, 88, 167) ;
-    
-}
-
-table{
-    width: 900px; 
-    justify-content: center;
-    text-align: justify;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    border-collapse: collapse;
-    line-height: 0.8;
-}
-
-tr th{
-    color: rgb(181, 178, 178);
-    padding-bottom: 10px;
-
-    box-shadow:  0 1px rgb(220, 219, 219) ;
-    
-
-}
-
-td{
-    padding-top: 10px;
-    color: deepskyblue;
-}
-
-footer p{
-    margin-top: 60px;
-    margin-bottom: 50px;
-    padding-left: 150px;
-    color: rgb(196, 194, 194);
-}
-
-
-
-
