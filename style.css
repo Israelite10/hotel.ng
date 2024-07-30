@@ -858,5 +858,6 @@ footer p {
   footer p {
     text-align: center;
     padding: 0;
+    margin: 0;
   }
 }
